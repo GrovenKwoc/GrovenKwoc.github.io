@@ -1,7 +1,14 @@
-// import { useState } from 'react'
-
+import {Header} from './components/Header.jsx'
+import {Main} from './components/Main.jsx'
+import {NavBar} from './components/NavBar.jsx'
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <Header/>
+      <Main/>
+      <NavBar/>
+    </>
+  )
 }
 
 export default App;
